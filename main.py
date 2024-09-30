@@ -60,7 +60,7 @@ def plot_bar_chart():
     plt.bar(df["Name"], df["Runs Scored"])
     plt.xlabel("Player Name")
     plt.ylabel("Runs Scored")
-    plt.title("Most Runs Scored in IPL Season")
+    plt.title("Most Runs Scored in Season")
     plt.xticks(rotation=45)
     plt.tight_layout()
     plt.show()
